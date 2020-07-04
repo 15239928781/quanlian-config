@@ -7,13 +7,13 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     #type: com.mysql.jdbc.Driver
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     #&useSSL=false&serverTimezone=Asia/Shanghai
     #driverClassName: com.mysql.jdbc.Driver
     druid:
       # 主库数据源
       master:
-        url: jdbc:mysql://localhost:3306/game?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+        url: jdbc:mysql://localhost:3307/game?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
         username:  root
         password:  root
       # 从库数据源
