@@ -13,9 +13,9 @@ spring:
     druid:
       # 主库数据源
       master:
-        url: jdbc:mysql://139.186.82.194:3306/quanlian-admin?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
-        username:  quanlian-admin
-        password:  123456
+        url: jdbc:mysql://localhost:3307/game?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+        username:  root
+        password:  root
       # 从库数据源
       slave:
         # 从数据源开关/默认关闭
