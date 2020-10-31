@@ -148,6 +148,6 @@ logging:
     cn.harry: debug
 file:
   upload:
-    path1: http://119.45.158.174:9006/fileupload/
+    path1: http://119.45.158.174:9006/fileupload/2222
     
     
